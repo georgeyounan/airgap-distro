@@ -15,7 +15,7 @@ mkdir  $HOME/LIVE_BOOT
 debootstrap \
     --arch=i386 \
     --variant=minbase \
-    stretch \
+    bookworm \
     $HOME/LIVE_BOOT/chroot \
     http://ftp.ch.debian.org/debian/
 
